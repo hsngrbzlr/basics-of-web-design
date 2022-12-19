@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-size: 10px;
+}
+h1{
+    padding: 20px;
+    margin: 20px;
+    font-size: 60px;
+    position: relative;
+    left: 210px;
+}
+
+*{
+    padding: 0;
+    margin:0;
+    border: 0;
+    list-style:none;
+    
+}
+a{ 
+    text-decoration: none;
+}
+
+ul.menu {
+    background-color:#1f1c1c;
+    height: 70px;
+    border-bottom-right-radius: 60px;
+    position: sticky;
+    z-index: 2;
+    top:0px;
+    display:block;
+    
+
+}
+
+ul.menu>li>a:hover {
+    background-color: #c9c9c9;
+    color: black;
+    transition: .3s ease-in-out;
+} 
+
+ul.menu >li{
+    float:left;
+    position: relative;
+    
+}
+
+ul.menu >li >a{
+    display:block;
+    font-size: 15px;
+    color: #fff;
+    padding:0 40px;
+    left:60px;
+    right: 60px;
+    line-height: 70px;
+    border-right: 1px solid rgba(0,0,0,0.4);
+    text-decoration: none;
+    
+}
+ul.menu ul {
+    background-color:#7e2076f3;
+    width: 200px;
+    position: absolute;
+    top: 70px;
+    left: -20px;
+    opacity: 0;
+    transition:all 280ms;
+    visibility: hidden;
+    
+}
+
+
+ul.menu ul >li a {
+    font-size: 16px;
+    color: #fff;
+    padding:7 12px;
+    float: left;
+    margin:30px;
+    text-decoration: none;
+}
+
+
+ul.menu li:hover >ul{
+    opacity: 1;
+    visibility: visible;
+    left: 0px;
+}
+
+ul.menu >li ul ul{
+    background-color:rgba(216, 179, 228, 0.842);
+    width: 200px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left:140px;
+    visibility: hidden;
+    transition: all 400ms;
+    opacity:0;
+    
+
+}
+
+ul.menu ul ul li>a{
+    font-size: 15px;
+    color: #fff;
+    padding: 0px;
+    float: left;
+    position: relative;
+    
+}
+
+
+ul.menu ul >li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    left:200px;
+}
+
+.mask{
+    position:absolute;
+    margin:1px;
+    padding:0 40px;
+    left: 80px;
+
+}
+
+
+.collesseum{
+    position:absolute;
+    margin:1px;
+    padding:0 20px;
+    left: -40px;
+    top:-145px;
+    opacity: 0.2;
+    
+}
+
+.button1{
+    position: relative;
+    float:right;
+    background-color:#681a61f3 ;
+    color:white;
+    padding:30px;
+    margin:20px;
+    margin-top: 20px;
+    margin-right: 50px;
+    width: 140px;
+    border-radius: 50px;
+}
+
+.button2{
+    position: relative;
+    float:right;
+    background-color:#681a61f3 ;
+    color:white;
+    padding:30px;
+    margin:20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 140px;
+    border-radius: 50px;
+}
+
