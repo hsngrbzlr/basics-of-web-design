@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+
+<html> 
+<head>
+    <meta charset="utf-8" />
+    <title> ANASAYFA </title>
+</head>
+<style> 
+    #arkaplan {
+      background-image: url(https://images.pexels.com/photos/6440808/pexels-photo-6440808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+      background-position:bottom;
+      background-repeat: no-repeat;
+      padding:280px;
+      width:800px;
+      height:270px;
+    }
+    body{ background-color: black;}
+    button{ 
+        font-size:21px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color:rgb(238, 118, 7);
+        color:white;
+        height:70px;
+        width:220px;
+        border:2px;
+        border-radius:15px;
+        border-color: white;
+        cursor:pointer;
+        text-align: center;
+        transition: all 0.5s;
+        margin:8px ;
+            }
+        button span{
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.8s;}
+        button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;}
+        button:hover span {padding-right: 25px;}
+        button:hover span:after {opacity: 1; right: 0;}
+
+
+        h1 {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size:60px;
+            color:white;
+        }
+        h2{ color:white;}
+        p{color:white;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: x-large;
+        }
+    </style>
+<body>
+<div id="arkaplan">
+    <h1> ESKİŞEHİR </h1>
+
+    <p> Hareketli sosyal hayatı, zengin kültürü, genç nüfusu, tertemiz caddeleri, 890 bin civarı Eskişehir Nüfusu, kaplıcaları,Porsuk Çayı ve yeşilliği ile insanı büyüleyen, uygar bir yaşam denince akla gelen Türkiye’nin en gelişmiş ve çağdaş şehirlerinden biri olan Eskişehir...</p>
+<a href="tarihçesi.html" style="vertical-align:middle">
+    <button  class="button" style="vertical-align:middle"> <span> TARİHÇESİ </span> </button> </a>
+<a href="gezilecekyerler.html">
+    <button class="button" style="vertical-align:middle"> <span> GEZİLECEK YERLER</span> </button> </a>
+<a href="kültürsanat.html">
+    <button  class="button" style="vertical-align:middle"> <span> KÜLTÜR-SANAT </span> </button> </a> 
+<a href="yemekler.html">
+    <button  class="button" style="vertical-align:middle"> <span> YEMEKLER </span> </button> </a> 
+<a href="hakkımızda.html "> 
+<button  class="button" style="vertical-align:middle"> <span> HAKKIMIZDA </span> </button> </a>
+</div>
+
+</body>
+</html>
